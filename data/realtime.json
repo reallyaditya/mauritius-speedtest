@@ -1,0 +1,167 @@
+{
+    "LION": {
+        "type": "result",
+        "timestamp": "2020-01-28T10:24:37Z",
+        "ping": {
+            "jitter": 1.128,
+            "latency": 86.922
+        },
+        "download": {
+            "bandwidth": 2267954,
+            "bytes": 28020906,
+            "elapsed": 15000
+        },
+        "upload": {
+            "bandwidth": 5614736,
+            "bytes": 72676800,
+            "elapsed": 15003
+        },
+        "packetLoss": 0,
+        "isp": "Mauritius Telecom",
+        "server": {
+            "id": 17987,
+            "name": "TELMA",
+            "location": "Antananarivo",
+            "country": "MG",
+            "host": "speedtest.telma.mg",
+            "port": 8080,
+            "ip": "41.188.35.93"
+        },
+        "result": {
+            "id": "ee789904-8002-4857-991d-c27393e80bff",
+            "url": "https://www.speedtest.net/result/c/ee789904-8002-4857-991d-c27393e80bff"
+        }
+    },
+    "SAFE1": {
+        "type": "result",
+        "timestamp": "2020-01-28T10:25:11Z",
+        "ping": {
+            "jitter": 0.299,
+            "latency": 321.934
+        },
+        "download": {
+            "bandwidth": 396833,
+            "bytes": 4579200,
+            "elapsed": 13207
+        },
+        "upload": {
+            "bandwidth": 4093710,
+            "bytes": 51310340,
+            "elapsed": 15015
+        },
+        "packetLoss": 0,
+        "isp": "Mauritius Telecom",
+        "server": {
+            "id": 24682,
+            "name": "Vodafone India",
+            "location": "Cochin",
+            "country": "India",
+            "host": "ooklatestcochin.live.vodafone.in",
+            "port": 8080,
+            "ip": "112.79.47.25"
+        },
+        "result": {
+            "id": "d8dcae1f-227c-418d-81e7-e341cacef5ed",
+            "url": "https://www.speedtest.net/result/c/d8dcae1f-227c-418d-81e7-e341cacef5ed"
+        }
+    },
+    "SAFE2": {
+        "type": "result",
+        "timestamp": "2020-01-28T10:25:45Z",
+        "ping": {
+            "jitter": 0.41,
+            "latency": 55.712
+        },
+        "download": {
+            "bandwidth": 3455801,
+            "bytes": 46405440,
+            "elapsed": 15012
+        },
+        "upload": {
+            "bandwidth": 5037101,
+            "bytes": 74312640,
+            "elapsed": 15002
+        },
+        "packetLoss": 0,
+        "isp": "Mauritius Telecom",
+        "server": {
+            "id": 1285,
+            "name": "Vodacom Business",
+            "location": "Durban",
+            "country": "South Africa",
+            "host": "speedtest.dne.vodacombusiness.co.za",
+            "port": 8080,
+            "ip": "41.0.144.228"
+        },
+        "result": {
+            "id": "1987b46e-3c6f-428b-b599-67fc3931809f",
+            "url": "https://www.speedtest.net/result/c/1987b46e-3c6f-428b-b599-67fc3931809f"
+        }
+    },
+    "SAFE3": {
+        "type": "result",
+        "timestamp": "2020-01-28T10:26:13Z",
+        "ping": {
+            "jitter": 1.094,
+            "latency": 97.086
+        },
+        "download": {
+            "bandwidth": 1065719,
+            "bytes": 14187452,
+            "elapsed": 15014
+        },
+        "upload": {
+            "bandwidth": 5711334,
+            "bytes": 58890240,
+            "elapsed": 10015
+        },
+        "packetLoss": 0,
+        "isp": "Mauritius Telecom",
+        "server": {
+            "id": 12544,
+            "name": "MyKRIS Asia Sdn Bhd",
+            "location": "Penang",
+            "country": "Malaysia",
+            "host": "pngspeedtest.mykris.net",
+            "port": 8080,
+            "ip": "122.0.31.38"
+        },
+        "result": {
+            "id": "18f47a16-4edf-4824-a0f1-68027ab74462",
+            "url": "https://www.speedtest.net/result/c/18f47a16-4edf-4824-a0f1-68027ab74462"
+        }
+    },
+    "MARS": {
+        "type": "result",
+        "timestamp": "2020-01-28T10:26:46Z",
+        "ping": {
+            "jitter": 0.226,
+            "latency": 142.715
+        },
+        "download": {
+            "bandwidth": 1689240,
+            "bytes": 22475520,
+            "elapsed": 15016
+        },
+        "upload": {
+            "bandwidth": 5613750,
+            "bytes": 77135040,
+            "elapsed": 14004
+        },
+        "packetLoss": 0,
+        "isp": "Mauritius Telecom",
+        "server": {
+            "id": 27454,
+            "name": "Emtel Ltd",
+            "location": "Port Mathurin",
+            "country": "Mauritius",
+            "host": "speedtest5-1g.emtelnet.com",
+            "port": 8080,
+            "ip": "102.163.98.18"
+        },
+        "result": {
+            "id": "77472c92-a876-4997-a3c6-4172b03b3ca1",
+            "url": "https://www.speedtest.net/result/c/77472c92-a876-4997-a3c6-4172b03b3ca1"
+        }
+    }
+}

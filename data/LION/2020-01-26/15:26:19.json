@@ -1,0 +1,33 @@
+{
+    "type": "result",
+    "timestamp": "2020-01-26T11:26:56Z",
+    "ping": {
+        "jitter": 0.378,
+        "latency": 373.278
+    },
+    "download": {
+        "bandwidth": 2598675,
+        "bytes": 34007400,
+        "elapsed": 15015
+    },
+    "upload": {
+        "bandwidth": 487271,
+        "bytes": 4970000,
+        "elapsed": 11108
+    },
+    "packetLoss": 0,
+    "isp": "Mauritius Telecom",
+    "server": {
+        "id": 7755,
+        "name": "Orange Madagascar",
+        "location": "Antananarivo",
+        "country": "Madagascar",
+        "host": "speedtest1.orange.mg",
+        "port": 8080,
+        "ip": "41.63.144.182"
+    },
+    "result": {
+        "id": "d8889307-f3a3-49e1-848b-5aeef8bcf698",
+        "url": "https://www.speedtest.net/result/c/d8889307-f3a3-49e1-848b-5aeef8bcf698"
+    }
+}

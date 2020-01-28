@@ -1,0 +1,33 @@
+{
+    "type": "result",
+    "timestamp": "2020-01-26T11:28:28Z",
+    "ping": {
+        "jitter": 0.102,
+        "latency": 98.219
+    },
+    "download": {
+        "bandwidth": 1835093,
+        "bytes": 27312258,
+        "elapsed": 15005
+    },
+    "upload": {
+        "bandwidth": 499277,
+        "bytes": 5565000,
+        "elapsed": 11107
+    },
+    "packetLoss": 0,
+    "isp": "Mauritius Telecom",
+    "server": {
+        "id": 12544,
+        "name": "MyKRIS Asia Sdn Bhd",
+        "location": "Penang",
+        "country": "Malaysia",
+        "host": "pngspeedtest.mykris.net",
+        "port": 8080,
+        "ip": "122.0.31.38"
+    },
+    "result": {
+        "id": "3253e5dd-e902-4cbe-aa11-deb3b3aa7357",
+        "url": "https://www.speedtest.net/result/c/3253e5dd-e902-4cbe-aa11-deb3b3aa7357"
+    }
+}

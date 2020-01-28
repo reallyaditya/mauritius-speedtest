@@ -1,0 +1,33 @@
+{
+    "type": "result",
+    "timestamp": "2020-01-26T11:37:10Z",
+    "ping": {
+        "jitter": 0.813,
+        "latency": 91.354
+    },
+    "download": {
+        "bandwidth": 2393073,
+        "bytes": 28575400,
+        "elapsed": 11302
+    },
+    "upload": {
+        "bandwidth": 480521,
+        "bytes": 5752024,
+        "elapsed": 11406
+    },
+    "packetLoss": 0,
+    "isp": "Mauritius Telecom",
+    "server": {
+        "id": 17987,
+        "name": "TELMA",
+        "location": "Antananarivo",
+        "country": "MG",
+        "host": "speedtest.telma.mg",
+        "port": 8080,
+        "ip": "41.188.35.93"
+    },
+    "result": {
+        "id": "9aa75d4d-1276-4c62-b361-052e01801166",
+        "url": "https://www.speedtest.net/result/c/9aa75d4d-1276-4c62-b361-052e01801166"
+    }
+}

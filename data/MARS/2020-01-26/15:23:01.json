@@ -1,0 +1,33 @@
+{
+    "type": "result",
+    "timestamp": "2020-01-26T11:23:33Z",
+    "ping": {
+        "jitter": 0.934,
+        "latency": 152.374
+    },
+    "download": {
+        "bandwidth": 2489671,
+        "bytes": 30324000,
+        "elapsed": 13210
+    },
+    "upload": {
+        "bandwidth": 494780,
+        "bytes": 7380800,
+        "elapsed": 15003
+    },
+    "packetLoss": 0,
+    "isp": "Mauritius Telecom",
+    "server": {
+        "id": 27454,
+        "name": "Emtel Ltd",
+        "location": "Port Mathurin",
+        "country": "Mauritius",
+        "host": "speedtest5-1g.emtelnet.com",
+        "port": 8080,
+        "ip": "102.163.98.18"
+    },
+    "result": {
+        "id": "a2f0162d-5ae5-4420-801f-d8a134304653",
+        "url": "https://www.speedtest.net/result/c/a2f0162d-5ae5-4420-801f-d8a134304653"
+    }
+}
