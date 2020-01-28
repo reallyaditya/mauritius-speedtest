@@ -47,10 +47,16 @@ Interface SpeedtestResult {
 }
 ```
 
-- Just run the script to make speedtests and gather results.
+- Just run the script or run the binary to make speedtests and gather results.
 
 ```bash
 python3 speedtest.py
+```
+
+OR
+
+```bash
+./speedtest-binary
 ```
 
 - Change the speed test server codes to the ones you want in `/data/servers.json`
