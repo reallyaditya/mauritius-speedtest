@@ -5,8 +5,11 @@
 import subprocess
 import json
 import os
+import logging
 import glob
 from datetime import datetime
+
+logging.basicConfig(level=logging.INFO)
 
 # Get Date in format "YYYY-MM-DD"
 date = (datetime.now()).strftime('%Y-%m-%d')
@@ -22,16 +25,35 @@ with open('./data/servers.json', 'r') as server_json:
     server_dict = json.load(server_json)
 
 
+def detect_os():
+    import platform
+
+    current_os = platform.system().lower()
+
+    if (current_os == 'linux'):
+        speedtest_binary = './binaries/speedtest-linux_x86_64'
+    elif (current_os == 'darwin'):
+        speedtest_binary = './binaries/speedtest-macos'
+    elif (current_os == 'windows'):
+        speedtest_binary = './binaries/speedtest_win64.exe'
+    elif (current_os == 'freebsd'):
+        speedtest_binary = './binaries/speedtest_freebsd_x86_64'
+    else:
+        logging.error('OS not supported')
+
+    return (speedtest_binary)
+
+
 # launch a process for initiating speedtest
 # must install official speedtest-cli from Ookla (https://www.speedtest.net/apps/cli)
 def speedtest(server_code):
 
     # Run speedtest-cli from subprocess
-    speedtest = subprocess.run(["speedtest", "-s", str(server_code), "-f",
+    speedtest = subprocess.run([str(binary), "-s", str(server_code), "-f",
                                 "json-pretty", "-P", "8"], capture_output=True)
 
     # Load stdout from subprocess to a JSON object
-    result = json.loads((speedtest.stdout))
+    result = json.loads(speedtest.stdout)
     # Pop out private info (MAC/IP-ADDR, interface,...)
     result.pop('interface', None)
 
@@ -49,7 +71,7 @@ def save_speedtest(cable, server_code):
     try:
         os.makedirs(f'./data/{cable}/{date}/')
     except FileExistsError:
-        print('Folder already exists')
+        logging.warn('Folder already exists')
         pass
 
     # Call speedtest function and get result as JSON object
@@ -102,6 +124,7 @@ def sync_to_github():
 
 
 def main(server_list):
+
     realtime = []
     realtime_dict = {'LION': None, 'SAFE1': None, 'SAFE2': None,
                      'SAFE3': None, 'MARS': None}
@@ -114,7 +137,7 @@ def main(server_list):
             # Assign server code to variable
             server_code = country[server]
 
-            print(f'Speedtest running on {cable} cable in {server}')
+            logging.info(f'Speedtest running on {cable} cable in {server}')
             # Run speedtest and save result to array.
             result = save_speedtest(cable, server_code)
             realtime.append(result)
@@ -137,4 +160,8 @@ def main(server_list):
 
 if __name__ == "__main__":
     # Run main. Pass in dictionary of servers.
+    global binary
+    binary = detect_os()
+    logging.info(binary)
+
     main(server_dict)
