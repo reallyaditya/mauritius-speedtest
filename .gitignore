@@ -27,5 +27,4 @@ __pycache__
 build/*
 src/*
 speedtest.spec
-.tmp/*
-!.tmp/about.md
+tmp/_*
