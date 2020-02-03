@@ -1,0 +1,33 @@
+{
+    "type": "result",
+    "timestamp": "2020-02-03T18:02:27Z",
+    "ping": {
+        "jitter": 491.363,
+        "latency": 409.47
+    },
+    "download": {
+        "bandwidth": 1973947,
+        "bytes": 19682600,
+        "elapsed": 13814
+    },
+    "upload": {
+        "bandwidth": 46286,
+        "bytes": 623138,
+        "elapsed": 15006
+    },
+    "packetLoss": 13.454545454545455,
+    "isp": "Mauritius Telecom",
+    "server": {
+        "id": 24682,
+        "name": "Vodafone India",
+        "location": "Cochin",
+        "country": "India",
+        "host": "ooklatestcochin.live.vodafone.in",
+        "port": 8080,
+        "ip": "112.79.47.25"
+    },
+    "result": {
+        "id": "9b1ee3c6-a388-470b-b3d0-321144d6a053",
+        "url": "https://www.speedtest.net/result/c/9b1ee3c6-a388-470b-b3d0-321144d6a053"
+    }
+}
