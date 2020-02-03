@@ -21,8 +21,9 @@ yarn-error.log*
 *.sw?
 
 # Python cache
-__pycache__/*
+__pycache__
 
 # Script binary
-speedtest-bin/*
+build/*
 src/*
+speedtest.spec

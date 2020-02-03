@@ -71,7 +71,7 @@ def save_speedtest(cable, server_code):
     try:
         os.makedirs(f'./data/{cable}/{date}/')
     except FileExistsError:
-        logging.warn('Folder already exists')
+        logging.warning('Folder already exists')
         pass
 
     # Call speedtest function and get result as JSON object
@@ -162,6 +162,5 @@ if __name__ == "__main__":
     # Run main. Pass in dictionary of servers.
     global binary
     binary = detect_os()
-    logging.info(binary)
 
     main(server_dict)
